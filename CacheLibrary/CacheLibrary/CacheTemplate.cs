@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace CacheLibrary
 {
-    class CacheTemplate<T> 
+    abstract class CacheTemplate<T> 
     {
-        private T t;      
-
+        public abstract T GetDB();
 
     }
+
+
 }
